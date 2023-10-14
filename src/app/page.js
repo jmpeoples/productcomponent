@@ -1,9 +1,10 @@
 import Image from 'next/image'
+import { TableLayout } from './tableLayout'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h2>Goodbye Mars</h2>
+    <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+      <TableLayout />
     </main>
   )
 }
