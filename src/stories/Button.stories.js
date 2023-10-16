@@ -43,12 +43,3 @@ export const Small = {
     label: 'Button',
   },
 };
-
-export const myStory = {
-  parameters: {
-    design: {
-      type: "figma",
-      url: "https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File",
-    },
-  },
-};
